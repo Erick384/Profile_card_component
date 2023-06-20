@@ -4,15 +4,25 @@
   padding: 2rem;
   text-align: center;
 }
-body{
-  display: flex;
-  flex-direction: column;
-  background-image: url(/images/bg-pattern-card.svg);
+.container{
+  box-shadow: 0 3px 10px rgb(0 0 0/0.2);
+  /* padding: 3rem; */
+}
+.top{
+  background-image: url(./images/bg-pattern-top.svg);
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  height: 10vh;
+  min-width: 100%;
+}
+.profilePic{
+  background-image: url(./images/image-victor.jpg);
+  top: 50%;
+  width: 90px;
+  height: 90px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-}
-.container{
-  /* border: 1px solid red; */
-  box-shadow: 0 3px 10px rgb(0 0 0/0.2);
+  border-radius: 50%;
+  border: 1px solid red;
 }
