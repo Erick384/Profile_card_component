@@ -1,28 +1,39 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.container{
+.container {
   box-shadow: 0 3px 10px rgb(0 0 0/0.2);
-  /* padding: 3rem; */
+  width: 20vw;
+  border-radius: 1rem;
+  background-color: hsl(0, 0%, 100%);
 }
-.top{
-  background-image: url(./images/bg-pattern-top.svg);
-  background-position: center;
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
-  height: 10vh;
-  min-width: 100%;
-}
-.profilePic{
-  background-image: url(./images/image-victor.jpg);
-  top: 50%;
-  width: 90px;
-  height: 90px;
+.top {
+  background-image: url(./images/bg-pattern-card.svg);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  height: 15vh;
+  border-radius: 1rem 1rem 0 0;
+  min-width: 100%;
+}
+.content,
+.content div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottom-Content {
+  /* border: 1px solid red; */
+  border-radius: 0 0 1rem 1rem;
+}
+.imgVictor {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin: 0 auto;
   border-radius: 50%;
-  border: 1px solid red;
+  position: relative;
+  top: -50px;
 }

@@ -1,4 +1,17 @@
-.bottom{
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  border-radius: 0 0 1rem 1rem;
+  padding: 1rem 2rem;
+  border-top: 1px solid hsl(0, 0%, 59%)
+  ;
+}
+.bottom-Txt{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom-Txt span{
+    color: hsl(0, 0%, 59%);
 }
